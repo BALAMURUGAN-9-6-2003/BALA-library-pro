@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url("Screenshot\ \(1\).png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+
+.sti {
+    position: static;
+    top: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.sti ul {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    font-weight: 500;
+}
+.sti ul a
+{
+    text-decoration: none;
+    color: white;
+}
+ul li
+{
+    height:30px;
+    padding: 5px;
+    margin-left: 10px;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+
+}
+.sti ul:hover li
+{ 
+    padding-bottom: 30px;
+}
+ul:hover li:hover
+{
+    padding-top: 50px;      
+}
+
+h1 {
+    text-align: center;
+}
+
+.cen {
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(6px);
+    
+
+}
+
+.form {
+    width: 400px;
+    margin-top: 50px;
+    
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-group button {
+    margin-top: 10px;
+}
+
+.ll {
+    min-height: 80vh;
+    margin-top: 15px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.form-group input {
+    font-size: 15px;
+    border-radius: 5px solid white;
+    outline: none;
+    padding-left: 20px;
+}
+
+.form-group textarea {
+    font-size: 15px;
+    border-radius: 5px solid white;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.form-group select {
+    width: 100%;
+    outline: none;
+    border-radius: 5px solid white;
+}
+#membershipType
+{
+    height: 40px;
+    width: 420px;
+    padding-right: 30px;
+    /* background-color: aqua; */
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 0px;
+    font-weight: 500px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: white;
+}
+.form-group input
+{
+    height: 20px;
+    width: 392px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 0px;
+    font-weight: 500px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: white;
+}
+.form-group textarea
+{
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 0px;
+    font-weight: 500px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: white;
+    
+
+}

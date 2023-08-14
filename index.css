@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image:url("Screenshot\ \(1\).png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    place-items: center;
+    
+}
+.sti
+{
+    grid-area: a;
+    position: static;
+    top:0px;
+    display: flex;
+    cursor: pointer;
+}
+.sti ul
+{
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;   
+     height: 40px;
+    width: 100%;
+    font-weight: bold;
+    /* box-shadow: 0px 0px 10px white; */
+}
+.sti ul:hover li
+{
+ 
+    padding-bottom: 30px;
+}
+ul:hover li:hover
+{
+    padding-top: 60px;      
+}
+.card
+{
+    cursor:default;
+    position: absolute;
+    transform: translateX(50%);
+    height: 35%;
+    width: 50%;    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .9;
+}
+.card .text
+{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+   
+    font: small-caps bold  sans-serif;
+}
+ul li
+{
+    height:30px;
+    padding: 5px;
+    margin-left: 10px;
+    transition: .4s;
+    transition-timing-function: ease-in-out;
+
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}

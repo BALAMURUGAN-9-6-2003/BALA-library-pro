@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    cursor: default;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url("/report/Screenshot\ \(1\).png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+.sti
+{
+    height: 40px;
+    width: 100%;
+   
+    position: sticky;
+    top:0px;
+    cursor: pointer;
+}
+.sti ul
+{
+    margin-top: 20px;
+    
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 13px;   
+     height: 40px;
+    width: 100%;
+    font-weight: bold;
+}
+.sti ul li
+{
+    transition: .4s;
+}
+.sti ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+.sti ul:hover li
+{
+    padding-bottom: 30px;
+    
+}
+ul:hover li:hover
+{
+    padding-top: 30px;
+}
+
+h1 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+table {    
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    backdrop-filter :blur(1px) ;
+}
+.tot
+{
+    padding: 10px 5px;
+}
+p{
+    font-size:18px ;
+    padding-left: 15%;
+
+}

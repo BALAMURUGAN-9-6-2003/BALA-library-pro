@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edit User</title>
+    <link rel="stylesheet" href="edit.css">
+</head>
+
+<body>
+    <div class="sti">
+        <ul>
+            <a href="/index/index.html"><li>Home</li></a>
+            <a href="/Library Catalog/catalog.html"><li>Library Catalog</li></a>
+            <a href="/Check Availability/Check Availability.html"><li>Check Availability</li></a>
+            <a href="/report/report.html"> <li>Reports</li></a>
+            <a href="/Login/login.html"><li>logout</li></a>
+        </ul>
+    </div>
+    <div class="ll" >
+        <div class="cen" >
+            <div class="form" >
+                <h1>Edit User</h1>
+
+                <div class="form-group">
+                    <label for="userId">User ID:</label>
+                    <input type="text" id="userId" name="userId" value=" " disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" value=" ">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" value="@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="contactNumber">Contact Number:</label>
+                    <input type="text" id="contactNumber" name="contactNumber" value=" ">
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="membershipType">Membership Type:</label>
+                    <select id="membershipType" name="membershipType">
+                        <option value="student">Student</option>
+                        <option value="faculty">Faculty</option>
+                        <option value="staff">Staff</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image:url("Screenshot\ \(1\).png") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100% 100%;
+    overflow: hidden;
+    color: white;
+    
+
+}
+.sti
+{
+    position: static;
+    top:0px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.sti ul
+{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 13px;   
+     height: 40px;
+    width: 100%;
+    font-weight: bold;
+}
+.sti ul li
+{
+    font-size: 20px;
+    transition: .4s;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.sti ul:hover li
+{
+    
+    padding-bottom: 40px;
+}
+ul:hover li:hover
+{
+    padding-top: 80px;     
+}
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.form {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-group {
+    margin-top: 10px;
+    width: 90%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.form-group input {
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    border-radius: 3px solid black;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px; 
+}
+button{
+    border-radius: 3px solid black;
+    height: 35px;
+    justify-content: center;
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.result {
+    margin-top: 20px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+}
+
+.result h2 {
+    margin: 0;
+}
+.opo
+{
+    width: 60%;
+    backdrop-filter: blur(6px);
+    display: grid;
+    place-items: center;
+}
